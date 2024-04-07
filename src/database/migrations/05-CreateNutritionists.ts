@@ -25,7 +25,7 @@ export class CreateNutritionists1712487992581 implements MigrationInterface {
                 {
                   name: "speciality",
                   type: "enum",
-                  enum: ["Sports Nutritionist", "Clinical Nutritionist", "Dietitian"],
+                  enum: ["Nutricionista Deportivo", "Nutricionista Clínico", "Dietista"],
                   isNullable: true
                 },
                 {

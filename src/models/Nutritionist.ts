@@ -14,7 +14,7 @@ export class Nutritionist {
   user_id!: number;
 
   @Column()
-  speciality?: "Sports Nutritionist" | "Clinical Nutritionist" | "Dietitian";
+  speciality?: "Nutricionista Deportivo" | "Nutricionista Clínico" | "Dietista";
 
   @Column()
   work_experience?: number;

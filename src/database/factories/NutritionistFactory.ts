@@ -7,7 +7,7 @@ import { BaseFactory } from "./BaseFactory";
 
 export class NutritionistFactory extends BaseFactory<Nutritionist> {
    protected generateSpecifics(nutritionist: Nutritionist): Nutritionist {
-      nutritionist.speciality = faker.helpers.arrayElement(["Sports Nutritionist", "Clinical Nutritionist", "Dietitian"]);
+      nutritionist.speciality = faker.helpers.arrayElement(["Nutricionista Deportivo", "Nutricionista Clínico", "Dietista"]);
       nutritionist.work_experience = faker.number.int({ min: 3, max: 30 });
       
    

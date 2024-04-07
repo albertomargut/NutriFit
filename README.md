@@ -100,7 +100,7 @@ Tecnologías utilizadas:
                 "email": "artist.demo@example.com",
                 "password": "12345678",
                 "phone_number": "646557606",
-                "speciality": "Sports Nutritionist" | "Clinical Nutritionist" | "Dietitian"; (Hay tres opciones)
+                "speciality": "Nutricionista Deportivo" | "Nutricionista Clínico" |"Dietista"; (Hay tres opciones)
                 "work_experience": "2"
             }
 
