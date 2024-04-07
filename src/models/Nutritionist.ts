@@ -16,8 +16,7 @@ export class Nutritionist {
   @Column()
   speciality?: "Sports Nutritionist" | "Clinical Nutritionist" | "Dietitian";
 
-  @Column()
-  work_experience?: number;
+ 
 
   
   @OneToOne(() => User, (user) => user.nutritionist)
