@@ -24,9 +24,9 @@ export class AppointmentController {
         select: {
           id: true,
           date: true,
-          time:true,
-          client_id: true,
-          nutritionist_id: true,
+          // time:true,
+          // client_id: true,
+          // nutritionist_id: true,
           
 
         },
