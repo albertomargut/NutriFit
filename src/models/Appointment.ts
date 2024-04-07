@@ -21,8 +21,8 @@ export class Appointment {
     @Column({ type: 'date'})
     date!: Date;
 
-    // @Column({type: "time"})
-    // time!: Date;
+    @Column({type: "time"})
+    time!: Date;
   
     @Column()
     created_at!: Date;
