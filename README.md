@@ -41,7 +41,7 @@ Tecnologías utilizadas:
 
 ## Diagrama BD
 
-!['imagen-db'](./diagram/diagramaNutricion.png)
+!['imagen-db'](./diagram/diagram.png)
 
 ## Instalación en local
 
